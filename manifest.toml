@@ -53,7 +53,7 @@ ram.runtime = "50M" # **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, 
     ask.en = "Serial port of our Zigbee adapter"
     type = "string"
     example = "/dev/serial/by-id/your-CC2652RB_usb_stick_id"
-    default = "/dev/ttyUSB0"
+    default = ""
     help.en = "See also: https://www.zigbee2mqtt.io/guide/configuration/adapter-settings.html - Use 'ls /dev/serial/by-id/*' to find the correct serial port."
 
 
